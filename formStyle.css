@@ -1,0 +1,66 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h2 {
+    color: #2d2d2d;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  label {
+    color: #4d4d4d;
+    font-weight: bold;
+  }
+  
+  select.form-control {
+    color: #6c757d;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="tel"],
+  .form-group select,
+  .form-group textarea {
+    background-color: #f1f1f1;
+    color: #6c757d;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="tel"]:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    background-color: #fff;
+    color: #2d2d2d;
+    border-color: #6c757d;
+    box-shadow: none;
+  }
+  
+  .form-group input[type="file"] {
+    background-color: #fff;
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    font-weight: bold;
+  }
+
+  @media (max-width: 768px) {
+      .col-7, .col-5 {
+          width: 100%;
+      }
+  }
+
+  
