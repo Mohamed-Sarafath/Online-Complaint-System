@@ -1,0 +1,43 @@
+.title{
+    margin-top: -50px;
+    color: red;
+    /* background-color: aqua; */
+    
+}
+.logo{
+    margin-top: -40px;
+    height: 70px;
+}
+
+
+		/*Cookies style*/
+
+.cookies-notification {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f8f9fa;
+  padding: 10px;
+  display: none;
+}
+
+.cookies-notification p {
+  margin: 0;
+}
+
+.cookies-notification button {
+  margin-left: 10px;
+}
+
+@media (max-width: 576px) {
+  .cookies-notification {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: none;
+  }
+}
